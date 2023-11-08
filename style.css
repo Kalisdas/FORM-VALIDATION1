@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    background-image:url(./Coding\ Wallpapers\ 4.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form{
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 350px;
+    color: white;
+    height: 475px;
+    border-radius: 30px;
+    padding: 30px;
+    backdrop-filter:blur(10px);
+}
+h1{
+    text-align: center;
+    color:  rgb(194, 239, 239);
+}
+label{
+    color:  rgb(204, 241, 241);
+}
+button{
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background-color: rgb(8, 47, 47);
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid white;
+    cursor: pointer;
+    width: 100%;
+    font-size: large;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.form-input input{
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid rgb(232, 238, 238);
+    margin-top: 5px;
+}
+.form-input input:focus{
+    outline: 0;
+}
+.error{
+    font-size: 16px;
+    color: red;
+    margin-top: 5px;
+}
+.form-input .success input{
+    background-color: darkgreen;
+}
+.form-input .error input{
+    background-color: red;
+}
